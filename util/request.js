@@ -164,7 +164,7 @@ const createRequest = (uri, data, options) => {
 
     // IP头设置
     if (ip) {
-      headers['X-Real-IP'] = ip
+      //headers['X-Real-IP'] = ip
       headers['X-Forwarded-For'] = ip
     }
 
